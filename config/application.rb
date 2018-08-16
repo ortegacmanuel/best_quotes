@@ -1,10 +1,8 @@
 require "kadro"
 
 $LOAD_PATH << File.join(File.dirname(__FILE__),
-"..", "app",
-"controllers")
-
-require "quotes_controller"
+                        "..", "app",
+                        "controllers")
 
 module BestQuotes
   class Application < Kadro::Application
